@@ -25,6 +25,33 @@ namespace Snake2
         public MainWindow()
         {
             InitializeComponent();
+            gridImages = SetupGrid();
+            gameState = new GameState(rows, cols);
         }
     }
+
+    private Image[,] SetupGrid()
+    {
+        Image[,] images = new Image[rows, cols];
+        GameGrid.Rows = rows;
+        GameGrid.Columns = cols;
+
+
+        for (int r = 0; r < rows; r++)
+        {
+            for (int c = 0; c < cols; c++)
+            {
+                Image image = new Image
+                {
+                    Source = Images.Empty,
+                    RenderTransformOrigin = new Point(0.5, 0.5)
+                };
+
+                images[r, c] = image;
+                GameGrid.Children.Add(image);
+            }
+        }
+
+        return images;
+    } 
 }
