@@ -22,6 +22,13 @@ namespace Snake
         public readonly LinkedList<Position> snakePositions = new LinkedList<Position>();
         private readonly Random random = new Random();
 
+        private int gameSpeed;
+
+        public void SetGameSpeed(int speed)
+        {
+            gameSpeed = speed;
+        }
+
         public GameState(int rows, int cols)
         {
             Rows = rows;

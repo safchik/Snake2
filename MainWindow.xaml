@@ -13,7 +13,8 @@
         WindowStartupLocation="CenterScreen"
         Icon="Assets/icon.ico"
         PreviewKeyDown="Window_PreviewKeyDown"
-        KeyDown="Window_KeyDown">
+        KeyDown="Window_KeyDown"
+        Focusable="True">
     <Viewbox>
         <Grid>
             <Grid.RowDefinitions>
@@ -27,6 +28,8 @@
                    Text="SCORE 0"
                    FontSize="22"
                    Margin="10"/>
+
+
 
             <Border x:Name="GridBorder"
                 Grid.Row="1"
@@ -44,7 +47,9 @@
                          RenderOptions.BitmapScalingMode="HighQuality">
 
                 </UniformGrid>
+
             </Border>
+
 
             <Border x:Name="Overlay"
                     Grid.Row="1"
@@ -61,6 +66,8 @@
                            TextWrapping="Wrap"/>
 
             </Border>
+            
+
         </Grid>
     </Viewbox>
 </Window>
