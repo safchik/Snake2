@@ -21,6 +21,8 @@ namespace Snake2
             ColumnOffset = colOffset;   
         }
 
+
+
         public Direction Opposite()
         {
             return new Direction(-RowOffset, -ColumnOffset);
