@@ -164,6 +164,12 @@ namespace Snake
             }
         }
 
-        
+        private async Task ShowGameOver()
+        {
+            
+            await Task.Delay(1000);
+            Overlay.Visibility = Visibility.Visible;
+            OverlayText.Text = "PRESS ANY KEY TO START";
+        }
     }
 }
