@@ -7,4 +7,34 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\706e8c7a369f7816f5e44e93b1dfadc4.jpg" />
+    <None Remove="Assets\985bac438744a5bb909b868746ada8b2.jpg" />
+    <None Remove="Assets\Body.png" />
+    <None Remove="Assets\DeadBody.png" />
+    <None Remove="Assets\DeadHead.png" />
+    <None Remove="Assets\DroidSansMono.ttf" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\Food.png" />
+    <None Remove="Assets\Head.png" />
+    <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\Logo.jpg" />
+    <None Remove="Assets\Logotwo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\706e8c7a369f7816f5e44e93b1dfadc4.jpg" />
+    <Resource Include="Assets\985bac438744a5bb909b868746ada8b2.jpg" />
+    <Resource Include="Assets\Body.png" />
+    <Resource Include="Assets\DeadBody.png" />
+    <Resource Include="Assets\DeadHead.png" />
+    <Resource Include="Assets\DroidSansMono.ttf" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\Food.png" />
+    <Resource Include="Assets\Head.png" />
+    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\Logo.jpg" />
+    <Resource Include="Assets\Logotwo.jpg" />
+  </ItemGroup>
+
 </Project>
