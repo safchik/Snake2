@@ -1,13 +1,13 @@
 ﻿
-
+using Snake2;
 using System;
 using System.Collections.Generic;
 
-namespace Snake2
+namespace Snake
 {
     public class Position
     {
-        public int Row {  get; }
+        public int Row { get; }
         public int Col { get; }
 
         public Position(int row, int col)
